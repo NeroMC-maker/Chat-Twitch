@@ -1,4 +1,4 @@
-import tmi from 'tmi.js';
+const tmi = window.tmi; // Usa la versión del CDN
 import { config } from './config.js';
 
 // Configuración del cliente
